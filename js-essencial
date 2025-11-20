@@ -1,6 +1,4 @@
-
-
-    // 1 - Validação de formulário
+// 1 - Validação de formulário
     const form = document.getElementById("formLab");
     const nome = document.getElementById("nome");
     const erroNome = document.getElementById("erroNome");
@@ -19,12 +17,7 @@
             event.preventDefault(); // só para o exemplo não recarregar
         }
     });
-
-
-
-
-
-    // 2 Manipulação de elementos
+// 2 Manipulação de elementos
     const btnMensagem = document.getElementById("btnMensagem");
     const mensagem = document.getElementById("mensagem");
 
@@ -33,9 +26,7 @@
         mensagem.style.color = "blue";
         mensagem.style.fontWeight = "bold";
     });
-
-
-    // 3 Efeitos e interações
+// 3 Efeitos e interações
     const btnFoto = document.getElementById("btnFoto");
     const foto = document.getElementById("foto");
 
@@ -46,9 +37,7 @@
             foto.style.opacity = "0";
         }
     });
-
-
-    // 4 Cálculos
+// 4 Cálculos
     const n1 = document.getElementById("n1");
     const n2 = document.getElementById("n2");
     const btnSomar = document.getElementById("btnSomar");
@@ -58,9 +47,7 @@
         const soma = Number(n1.value) + Number(n2.value);
         resultado.textContent = "Resultado: " + soma;
     });
-
-
-    // 5 LocalStorage
+// 5 LocalStorage
     const nomeUsuario = document.getElementById("nomeUsuario");
     const btnSalvar = document.getElementById("btnSalvar");
     const boasVindas = document.getElementById("boasVindas");
@@ -75,8 +62,7 @@
         boasVindas.textContent = "Olá, " + nomeUsuario.value + "!";
     });
 
-
-    // 6 Carrossel de imagens
+// 6 Carrossel de imagens
     const slides = document.querySelectorAll(".carousel-slide");
     const prev = document.getElementById("prev");
     const next = document.getElementById("next");
