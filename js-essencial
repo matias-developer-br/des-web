@@ -17,6 +17,7 @@
             event.preventDefault(); // só para o exemplo não recarregar
         }
     });
+
 // 2 Manipulação de elementos
     const btnMensagem = document.getElementById("btnMensagem");
     const mensagem = document.getElementById("mensagem");
@@ -26,6 +27,7 @@
         mensagem.style.color = "blue";
         mensagem.style.fontWeight = "bold";
     });
+
 // 3 Efeitos e interações
     const btnFoto = document.getElementById("btnFoto");
     const foto = document.getElementById("foto");
@@ -37,6 +39,7 @@
             foto.style.opacity = "0";
         }
     });
+
 // 4 Cálculos
     const n1 = document.getElementById("n1");
     const n2 = document.getElementById("n2");
@@ -47,6 +50,7 @@
         const soma = Number(n1.value) + Number(n2.value);
         resultado.textContent = "Resultado: " + soma;
     });
+
 // 5 LocalStorage
     const nomeUsuario = document.getElementById("nomeUsuario");
     const btnSalvar = document.getElementById("btnSalvar");
